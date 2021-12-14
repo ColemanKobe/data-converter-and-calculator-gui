@@ -31,6 +31,12 @@ Install the Geany Text Editor:
 gcc `pkg-config --cflags gtk+-3.0` -o converter converter.c `pkg-config --libs gtk+-3.0` -lm
 ```
 
+**Execute command:**
+
+```
+./converter
+```
+
 **Allowed input:**
 
 decimal -> binary: less than or equal to 99998
@@ -48,6 +54,12 @@ hex -> binary: less than or equal to ffff
 
 ```
 gcc `pkg-config --cflags gtk+-3.0` -o calculator calculator.c `pkg-config --libs gtk+-3.0` -lm
+```
+
+**Execute command:**
+
+```
+./calculator
 ```
 
 **Allowed input:**
